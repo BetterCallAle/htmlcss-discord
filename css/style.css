@@ -13,6 +13,7 @@ html{
 
 .container{
     width: 85%;
+    max-width: 1167px;
     margin: 0 auto;
 }
 
