@@ -42,6 +42,14 @@ html{
     padding: 5px;
     margin-right: 20px;
 }
+
+.cta a{
+    text-decoration: none;
+}
+
+.white{
+    color: white;
+}
 /* /COMMON */
 
 /* HEADER */
@@ -117,12 +125,14 @@ h1{
     background-color: white;
 }
 
-.jumbotron .browser{
-    width: 310px;
-    color: white;
-    background-color: #23272a;
+.jumbotron .mac a{
+    color: black;
 }
 
+.jumbotron .browser{
+    width: 310px;
+    background-color: #23272a;
+}
 /* /jumbotron */
 /* /HEADER */
 
