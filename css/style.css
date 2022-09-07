@@ -25,7 +25,7 @@ html{
     flex-direction: row-reverse;
 }
 
-.log-and-sig a{
+.log-and-sign a{
     display: inline-block;
     text-decoration: none;
     font-size: .9rem;
@@ -42,6 +42,10 @@ html{
     border-radius: 45px;
     padding: 5px;
     margin-right: 20px;
+}
+
+img{
+    max-width: 100%;
 }
 
 a{
@@ -74,7 +78,7 @@ header{
     width:50%;
     list-style: none;
     justify-content: center;
-    gap: 0 50px;
+    gap: 0 3.125em;
 }
 
 ul li a{
@@ -82,11 +86,11 @@ ul li a{
     text-decoration: none;
 }
 
-.header-nav .sig-in{
+.header-nav .log-in{
     text-align: end;
 }
 
-.sig-in a{
+.log-in a{
     width: 70px;
     color: black;
     background-color: white;
@@ -124,6 +128,7 @@ h1{
 .jumbotron .mac{
     width: 220px;
     background-color: white;
+    margin-bottom: 1em;
 }
 
 .jumbotron .mac a{
@@ -158,6 +163,13 @@ main section:nth-child(even){
     background-color: #f6f6f6;
 }
 
+.image{
+    width: 60%;
+}
+
+.text{
+    width: 40%;
+}
 
 section .flex-container{
     padding: 100px 0;
@@ -214,7 +226,6 @@ section .flex-container{
 /* FOOTER */
 footer{
     min-height: 500px;
-    /* debug */
     background-color: #23272a;
 }
 
@@ -266,7 +277,6 @@ h3{
 
 .footer-box ul li a{
     color:white;
-    text-decoration: none;
 }
 /* /Footer box */
 
@@ -281,7 +291,7 @@ h3{
     height: 70px;
 }
 
-.log-in a{
+.sign-in a{
     width: 90px;
     color: white;
     background-color: #7289da;
